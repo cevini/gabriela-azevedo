@@ -573,7 +573,8 @@ header{
   .nav-link{
     display: block;
     margin: 1rem 0;
-    transition: .5s all cubic-bezier(0.075, 0.82,0.165, 1)
+    transition: .5s all cubic-bezier(0.075, 0.82,0.165, 1);
+    color: var(--branco)
   }
   .open-menu{
     right: 0;
