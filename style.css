@@ -246,7 +246,9 @@ header{
   margin-bottom: 10px
 }
 .social{
-  transition: 0.3s ease
+  transition: 0.3s ease;
+  margin: 20px 0;
+  text-align: center;
 }
 .social a{
   transition: 0.3s ease;
@@ -600,13 +602,13 @@ header{
   justify-content: center;
 }
 .contact-local h4{
-  color: var(--branco);
+  color: var(--lilas);
   font-size: 2rem;
   background: linear-gradient(to right, var(--dark),transparent);
   padding: 10px; border-radius: 5px
 }
 .contact-local h5{
-  color: var(--branco);
+  color: var(--azul);
   padding: 10px; font-size: 1rem;
   margin: auto;
   text-align: center;
@@ -637,6 +639,12 @@ header{
 .contact-form .send-btn:hover{
   background: var(--azul);
   transition: .3s all linear
+}
+.credito, .credito a{
+  color: var(--branco);
+  font-family: var(--texto);
+  text-align: center;
+  padding-bottom:10px
 }
 /*=================Responsives==================*/
 @media (max-width:990px){
@@ -909,6 +917,9 @@ header{
   }
   .heading{
     font-size: 2rem
+  }
+  .about .container{
+    min-height: 0
   }
   .about-data h2{
     font-size: 1.5rem;
